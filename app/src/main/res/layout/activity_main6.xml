@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="411dp"
+        android:layout_marginLeft="411dp"
+        android:layout_marginBottom="400dp"
+        android:text="★アプリの使い方★  1から4の流れで使用してください  １． 〔出発地選択画面〕 主要な駅を表示 ・東京駅、新宿駅、渋谷駅を表示  ２． 〔観光時間と天気選択画面〕 観光時間と天気の組み合わせで4通りの提案をし、表示 ・観光時間→1日観光or半日観光 ・天気→晴天or雨天  ３． 〔オススメプラン表示画面〕 オススメプランを作成し表示 ・1と2の条件に見合ったプランを表示  ４． 〔観光の流れ表示画面〕 1日の観光スケジュールを表示 ・大まかな乗り換えの流れを表示 ・各観光地の滞在時間の表示 ・区間ごとにおすすめの景色をアナウンス"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
